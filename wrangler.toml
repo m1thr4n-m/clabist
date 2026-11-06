@@ -10,4 +10,4 @@ not_found_handling = "single-page-application"
 
 [[kv_namespaces]]
 binding = "CLAB_QUIZ"
-id = "REPLACE_WITH_YOUR_KV_ID"
+id = "YOUR_KV_ID_HERE"
