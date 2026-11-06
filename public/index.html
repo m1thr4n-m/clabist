@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CLab Virtual Chemistry Laboratory | SRM IST</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&family=Mrs+Saint+Delafield&family=Newsreader:ital,wght@0,400;0,600;1,400&family=Schibsted+Grotesk:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.4/3Dmol-min.js"></script>
+</head><body>
+<div id="wm" aria-hidden="true"></div>
+<div class="gov"><div class="w"><div class="nihl">SRM</div><div><b>SRM Institute of Science and Technology</b><em>Virtual Chemistry Laboratory</em></div></div></div>
+<header class="bb"><div class="w"><a class="brand" href="/" data-t="home" aria-label="CLab home">CLab</a>
+ <button id="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i><i></i></button>
+ <nav id="nav"><a href="/" data-t="home" class="on">Home</a><a href="/elements" data-t="elements">Elements</a><a href="/compounds" data-t="compounds">Compounds</a><a href="/course" data-t="course">Course<i class="st" data-sf="course"></i></a><a href="/quiz" data-t="quiz">Quiz<i class="st" data-sf="quiz"></i></a><a href="/certificate" data-t="cert">Certificate<i class="st" data-sf="cert"></i></a></nav></div></header>
+<main>
+<section id="v-home" class="view on">
+ <div class="hero"><div class="hexf"><i></i></div><div class="bin" aria-hidden="true"><span>0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0</span><span>0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0</span><span>0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1</span><span>1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1</span><span>1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0</span><span>0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0</span><span>0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0</span><span>0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1</span><span>1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1</span><span>1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0</span><span>0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0</span><span>0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 1 1 0</span></div><div class="w">
+  <h1 class="big">Quickly find chemical information</h1>
+  <form class="sb" id="hf"><input id="hq" list="dl1" placeholder="Find a compound" aria-label="Search compounds" autocomplete="off"><datalist id="dl1"></datalist><button type="button" id="bHex" aria-label="Search by SMILES"><svg viewBox="0 0 24 24"><path d="M12 2.5l8 4.6v9.8l-8 4.6-8-4.6V7.1z"/></svg></button><button type="button" id="bUp" aria-label="Open an SDF or MOL file"><svg viewBox="0 0 24 24"><path d="M12 17V4M6 10l6-6 6 6M4 20h16"/></svg></button><button aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></button><input type="file" id="fup" accept=".sdf,.mol" hidden></form>
+  <p class="slogan">CLab by Mithran and Abinesh</p>
+  <div class="try" id="try"></div>
+  <div id="adv"><select id="st" aria-label="Search type"><option value="auto">Detect automatically</option><option value="name">Name</option><option value="smiles">SMILES</option><option value="formula">Formula</option></select></div>
+  <div class="tl"><button id="bAdv">Advanced <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button><button id="bHis">History <svg viewBox="0 0 24 24"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1L3.5 8.5M3.5 3.5v5h5M12 7v5l3 2"/></svg></button><button id="bHelp">Help <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7M12 17v.5"/></svg></button></div>
+ </div></div>
+ <div class="w pane"><h2>What is CLab?</h2><p>CLab is the SRM IST virtual chemistry laboratory. Every element, structure and quiz question is read live from open chemistry services, so nothing you see is a fixed copy.</p>
+  <ol class="path"><li><button data-t="elements"><b>1</b>Explore elements and compounds</button></li><li><button data-t="course"><b>2</b>Watch the course<em class="st" data-sf="course"></em></button></li><li><button data-t="quiz"><b>3</b>Pass the quiz<em class="st" data-sf="quiz"></em></button></li><li><button data-t="cert"><b>4</b>Print your certificate<em class="st" data-sf="cert"></em></button></li></ol></div>
+ <div class="w pane" style="padding-top:8px"><div class="rowh"><h2>Pick a molecule</h2><button class="btn o s" id="shuf">Shuffle</button></div><div class="sl"><div class="slt" id="picks"></div></div></div>
+</section>
+
+<section id="v-elements" class="view"><div class="w"><div class="ph"><h2>Periodic table</h2><p>Select an element for its details. Hover or tap to light up its group and period.</p></div>
+ <div class="tb"><input id="q" class="in" placeholder="Name, symbol or number" aria-label="Search elements"><button class="btn o s" id="rndE">Random element</button><span id="status" class="m"></span></div>
+ <div class="sl"><div class="slt" id="esug"></div></div>
+ <div class="sl" style="margin-bottom:10px"><div class="slt lg" id="lg"></div></div>
+ <div class="sl"><div class="slt" id="tview"><div id="grid"></div></div></div></div></section>
+
+<section id="v-compounds" class="view"><div class="w"><div class="ph"><h2>Compounds</h2><p>Search by name, CID, formula or SMILES.</p></div>
+ <form class="sb" id="sf" style="margin-bottom:14px"><input id="sin" list="dl2" value="" placeholder="Find a compound" aria-label="Compound search" autocomplete="off"><datalist id="dl2"></datalist><button aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></button></form>
+ <div class="sl"><div class="slt" id="quick"></div></div><div id="res"></div></div></section>
+
+<section id="v-course" class="view"><div class="w"><div class="ph"><h2>Course: periodic trends and molecular data</h2><p>Play each video to the end and it ticks itself. You can also tick it by hand. The quiz opens at five.</p></div>
+ <div class="notes">
+  <h3>Elements follow a pattern</h3><p>Effective nuclear charge rises across a period, so atoms shrink and ionization energy increases. Down a group, extra shells shield the nucleus, so radius grows and ionization energy falls.</p>
+  <h3>Molecules as text</h3><p>SMILES writes a molecule as a string of atoms and bonds. Aspirin is CC(=O)OC1=CC=CC=C1C(=O)O. SDF files store 3D coordinates.</p>
+  <h3>Lipinski's rule of five</h3><p>Oral drugs usually have mass up to 500, logP up to 5, no more than 5 hydrogen bond donors and 10 acceptors. One violation is tolerated.</p>
+  <h3>Seeing 3D</h3><p>Ball and stick shows connectivity. Space filling shows van der Waals volume. Force fields such as MMFF94 relax bond lengths and angles.</p>
+ </div>
+ <div class="pg"><i id="pgb"></i></div><div class="vg" id="vg"></div>
+ <div class="row" style="margin-top:24px"><button class="btn" id="toQuiz">Go to quiz</button><span class="m" id="cnt"></span></div></div></section>
+
+<section id="v-quiz" class="view"><div class="w"><div class="ph"><h2>Final assessment</h2><p>Ten new questions every attempt, drawn from the course and from live element and compound data. Score 60% or more to pass.</p></div>
+ <div class="box" style="max-width:760px" id="qb"></div></div></section>
+
+<section id="v-cert" class="view"><div class="w"><div class="ph noprint"><h2>Certificate</h2><p>Enter your details after passing the quiz.</p></div>
+ <div class="box noprint" id="cf" style="max-width:520px"><p class="err" style="display:none;margin-bottom:14px" id="lock">Pass the quiz first to unlock the certificate.</p>
+  <label>Full name<input id="cname" class="in" style="max-width:none;margin:4px 0 12px"></label>
+  <label>Roll number<input id="croll" class="in" style="max-width:none;margin:4px 0 12px"></label>
+  <label>Registration number<input id="creg" class="in" style="max-width:none;margin:4px 0 16px"></label>
+  <button class="btn" id="gen" style="width:100%">Generate certificate</button></div>
+ <div class="cert" id="certbox"><div class="cw">CLAB by Mithran and Abinesh</div><div class="sr">SRM Institute of Science and Technology</div><h2>Certificate of Completion</h2><div class="m" style="font-size:18px">Virtual Chemistry Laboratory</div>
+  <p style="margin-top:26px">This certifies that</p><div class="cn" id="pn"></div>
+  <p>completed the virtual laboratory course on periodic trends, molecular structure and 3D conformers, and passed the assessment with a score of <b id="ps"></b>.</p>
+  <div class="cf"><div>Roll no: <b id="pr"></b><br>Reg no: <b id="pg2"></b><br>Date: <b id="pd"></b><br>Certificate ID: <b id="pid"></b></div>
+   <div class="sg2"><span class="sig" id="sigt">R. Subramanian</span><div class="ln"><b>R. Subramanian</b>Assistant Professor, Chemistry<br>SRM Institute of Science and Technology</div></div></div></div>
+ <div class="row noprint" style="justify-content:center;margin-top:22px"><button class="btn o" id="edt" style="display:none">Edit details</button><button class="btn o" id="prt" style="display:none">Print or save as PDF</button></div></div></section>
+</main>
+<footer><div class="w"><span>Faculty guide: <b>R. Subramanian</b>, Assistant Professor, Chemistry, SRM IST</span><span>© CLAB by Mithran and Abinesh</span></div></footer>
+<div id="sh"><div id="sb2"></div></div><div id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js" defer></script>
+</body></html>
